@@ -96,10 +96,6 @@ span {
 }
 
 .products::after {
-  position: absolute;
-  bottom: 8%;
-  left: 0;
-  right: 0;
   content: '';
   width: 100%;
   height: 1px;
