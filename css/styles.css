@@ -36,16 +36,14 @@ span {
 
 .navbar-toggler {
   border: none;
-  color: rgba(255,255,255,.8)!important;
-  cursor: pointer;
   padding-right: 0;
   text-transform: uppercase;
   font-size: 16px;
   letter-spacing: .1em;
 }
 
-.navbar {
-  background: #000 !important;
+nav.navbar {
+  background: #000;
 }
 
 
@@ -53,8 +51,12 @@ span {
   box-shadow: none;
 }
 
-.nav-link {
-  color: #c49b63 !important;
+.navbar-dark .navbar-nav .nav-link {
+  color: #c49b63;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #c49b63 ;
 }
 
 /* /navbar */
@@ -62,7 +64,7 @@ span {
 /* info */
 
 .info {
-  background: #000 !important;
+  background: #000 ;
 }
 
 .text h3 {
@@ -79,6 +81,10 @@ span {
 
 .main {
   padding-top: 4em;
+}
+
+.title-products {
+  text-transform: uppercase;
 }
 
 .text-red-1 {
@@ -172,8 +178,8 @@ span {
   .navbar-brand {
     margin-left: 25px;
   }
-  .navbar {
-    background: transparent !important;
+  nav.navbar {
+    background: transparent ;
     position: absolute;
     top: 0;
     right: 0;
